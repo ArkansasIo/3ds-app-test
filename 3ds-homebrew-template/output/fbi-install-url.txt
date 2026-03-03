@@ -1,0 +1,1 @@
+https://github.com/ArkansasIo/3ds-app-test/releases/download/v1.0.0/3ds-homebrew-template.cia

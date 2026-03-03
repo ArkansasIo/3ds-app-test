@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Win32-devkitARM",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/3ds-homebrew-template/include",
+        "${env:DEVKITPRO}/libctru/include",
+        "${env:DEVKITARM}/arm-none-eabi/include"
+      ],
+      "defines": [
+        "ARM11",
+        "_3DS",
+        "ENABLE_TOUCHSCREEN",
+        "XL_SCREEN",
+        "LOWER_SCREEN_OPTIMIZATION"
+      ],
+      "compilerPath": "${env:DEVKITARM}/bin/arm-none-eabi-gcc.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-arm",
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "${env:DEVKITPRO}/libctru/include",
+          "${env:DEVKITARM}/arm-none-eabi/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
